@@ -1,17 +1,30 @@
-# Bodolandia — sitio web
+# Bodolandia — sitio web oficial
 
-Página estática y responsive para Bodolandia, inflables y fiestas infantiles.
+Página estática y adaptable a móviles para promocionar inflables y snacks en fiestas infantiles.
 
-## Contenido
-- `index.html`: página completa con HTML, CSS y JavaScript integrados.
-- `assets/inflable-obstaculos.webp`: fotografía con fondo transparente del inflable de obstáculos.
-- `assets/castillo-inflable.webp`: fotografía con fondo transparente del castillo inflable.
-- `assets/favicon.svg`: ícono del sitio.
+## Qué incluye
 
-## Configurar WhatsApp
-En `index.html`, buscá `const WHATSAPP_NUMBER = "";` y colocá el número oficial de la empresa con código de país, solo dígitos, por ejemplo para Costa Rica `506XXXXXXXX`. El formulario de cotización abrirá WhatsApp con el mensaje listo. Mientras no se configure, ofrecerá **Copiar mensaje**, sin prometer un envío.
+- **Logo** Bodolandia de letras inflables, en `assets/logo-bodolandia.webp`.
+- **Slider** en la portada con fotografías de dos inflables reales, flechas, indicadores y controles táctiles.
+- **Tarjetas** de inflables con enlaces al formulario.
+- **Catálogo de snacks** con filtros de dulces/salados y botón para sumar cada snack a la cotización.
+- **Formulario** que prepara un mensaje con nombre, fecha, ubicación, servicio, snacks y detalles; abre WhatsApp al número **+506 8863 0845**. **El cliente debe presionar Enviar en WhatsApp**; la web no envía automáticamente ni confirma reservas.
+- Animaciones de aparición, preguntas frecuentes y navegación adaptable a móviles.
 
-## Publicar en GitHub Pages
-En el repositorio, ingresá a `Settings` → `Pages` → `Build and deployment`; seleccioná `Deploy from a branch`, rama `main` y `/(root)` y guardá. GitHub mostrará la dirección pública del sitio, normalmente `https://JohanCubillo.github.io/bodolandia-web/`.
+## Archivos
 
-Los precios, paquetes, teléfono y disponibilidad están pendientes de confirmar. Se usan fotografías reales aportadas por la marca, con fondo transparente.
+- `index.html`: estructura de la página.
+- `styles.css`: estilo adaptable y transiciones.
+- `script.js`: slider, filtros, formulario y animaciones.
+- `assets/logo-bodolandia.webp`: logo con fondo transparente.
+- `assets/inflable-obstaculos.webp` y `assets/castillo-inflable.webp`: imágenes proporcionadas de inflables.
+- `assets/favicon.svg`: icono del sitio.
+
+**Pendiente:** incorporar las siete fotografías individuales de snacks en cuanto estén disponibles como archivos originales. Las tarjetas utilizan íconos temporales.
+
+## GitHub Pages
+
+Configurá Settings → Pages → Deploy from a branch → main → /(root).
+URL prevista: https://johancubillo.github.io/bodolandia-web/
+
+No necesita servidor ni credenciales; es HTML, CSS y JavaScript.
